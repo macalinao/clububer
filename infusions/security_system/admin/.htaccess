@@ -1,0 +1,4 @@
+<Files ~ "(filterlist|ipfander|logfiles|overview|proxy_black|proxy_white|settings|spamlist|update|update_system.php|userlocked)+\.php$">
+Order deny,allow
+deny from all
+</Files>

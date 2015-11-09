@@ -1,0 +1,21 @@
+See INSTALL for informaion about how to install.
+
+
+If you face problems with enabled gzipped buffered output
+(ob_start("ob_gzhandler"); in maincore.php): This is not a Pro/Review issue.
+Pro/Review uses PHP-Fusion review class.
+
+
+If you need to protect your files from direct review specifying filenames
+directly try this simple .htaccess file in your reviews/ directory.
+
+--begin
+Order deny,allow
+Deny from all
+Allow from 127.0.0.1
+
+ErrorDocument 403 "<p><b>No Way!</b>
+--end
+
+
+(Es gibt auch eine deutsche INSTALL.de)

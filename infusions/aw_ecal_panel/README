@@ -1,0 +1,100 @@
+/****************************************************************************
+ * LICENSE
+ *********/
+awEventCalendar
+
+Copyright (C) 2006-2008 Artur Wiebe
+wibix@gmx.de
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+
+
+/****************************************************************************
+ * INSTALLATION
+ **************/
+See INSTALL for installation instructions.
+
+
+
+/****************************************************************************
+ * UPDATE
+ ********/
+Make sure you click on "Start update..." in SETTINGS (aw_ecal_panel/admin.php).
+
+
+
+/****************************************************************************
+ * LAYOUT
+ ********/
+If need want to customize the layout to your need read below. If you feel that
+the standard PHP-Fusion tables look too wide or too ugly this is because your
+theme designer didn't define ALL that is needed. Let him know he misses few
+things :)
+
+You can define how your side-panel and calendar in calendar-views looks like.
+If you need help to customize your layout have a look at my page
+(http://wibix.de) or contact your theme designer.
+
+There are 3 classes at the moment:
+	+ TABLE:awec_calendar
+		- TD:current: current day,
+		- TD:empty: no event on this day,
+		- TD:content: at least on event on this day,
+		- TD:dayofweek: day of week in the table caption,
+		- TD:weekend.
+	+ TABLE:awec_list
+		- TR:current: current day,
+		- TR:odd,
+		- TR:event.
+	+ TABLE:awec_event
+		- IMG:icon,
+		- DIV:left,
+		- DIV:right,
+		- DIV:head,
+		- DIV:body,
+		- DIV:status.
+
+Follows a simple example that you can paste right into your styles.css. If
+you need more, consider reading a CSS tutorial.
+--begin copy--
+table.awec_calendar th {		/* table head: day of the week */
+	font-weight: normal;
+}
+table.awec_calendar td.current {	/* current day */
+	border: 1px solid yellow;
+}
+table.awec_calendar td.content {	/* day with some events */
+	background-color: red;
+}
+table.awec_calendar td.empty {		/* day with no events */
+	background-color: gray;
+}
+table.awec_calendar td.weekend {	/* weekend */
+	background-color: blue;
+}
+
+/* analogous for the list view except it is using rows instead of cells */
+table.awec_list tr.odd {
+	background-color: green;
+}
+table.awec_list tr.even {
+	background-color: red;
+}
+table.awec_list tr.current {
+	background-color: yellow;
+}
+--end-copy--
+
+
+
+/****************************************************************************
+ * THANKS
+ ********/
+BoxOver
+v 2.1 17th June 2006
+By Oliver Bryant with help of Matthew Tagg
+http://boxover.swazz.org

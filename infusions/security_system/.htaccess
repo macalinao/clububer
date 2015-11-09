@@ -1,0 +1,9 @@
+<Files ~ ".+\.(bak|conf|exe|sh|linux|run|bat|lnk|com|pif|xll|dll|cmd|old)$">
+Order deny,allow
+deny from all
+</Files>
+
+<Files ~ "(main_control|infusion)+\.php$">
+Order deny,allow
+deny from all
+</Files>

@@ -1,0 +1,21 @@
+/*  
+ * Slider Navigation
+ * Description: Navigation used in theme Slider from Counterjumper
+ * Version: 1.0.2
+ * Author: Karmadude
+ * Author URI: http://counterjumper.com/
+ * 
+ * Slider 1.0.2
+ *  
+ * This navigation was designed and built by Karmadude   
+ * 
+ * 
+ */
+#navigation .sliderContent {
+	display: none;
+	margin: 0;
+}
+
+#navigation h2:hover {
+cursor: pointer;
+}

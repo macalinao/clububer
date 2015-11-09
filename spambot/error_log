@@ -1,0 +1,5 @@
+[19-Oct-2009 22:00:51] PHP Warning:  require_once(phpmailer_include.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home6/dcriticc/public_html/clububer/spambot/index.php on line 24
+[19-Oct-2009 22:00:51] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'phpmailer_include.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home6/dcriticc/public_html/clububer/spambot/index.php on line 24
+[20-Oct-2009 20:03:23] PHP Fatal error:  Call to undefined function  sha2() in /home6/dcriticc/public_html/clububer/spambot/index.php on line 8
+[20-Oct-2009 20:04:01] PHP Fatal error:  Call to undefined function  sha2() in /home6/dcriticc/public_html/clububer/spambot/index.php on line 8
+[20-Oct-2009 20:47:54] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home6/dcriticc/public_html/clububer/spambot/index.php on line 8

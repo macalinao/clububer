@@ -1,0 +1,4 @@
+$locale['ucc_913']
+$locale['ucc_914']
+$locale['ucc_211'] = "User Groups Management";
+$locale['ucc_212'] = "Information";

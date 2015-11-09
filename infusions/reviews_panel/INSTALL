@@ -1,0 +1,36 @@
+WARNING
+-------
+Make a backup of your database and read gpl.txt!
+
+
+INSTALLATION
+------------
+Standard PHP-Fusion installation.
+1) Upload reviews_panel/ into your infusions/ directory.
+2) Go to "Admin Panel" - "System Admin" - "Infusions". Select
+   "Pro Review Panel" from the dropdown box and click "Infuse".
+3) Chmod reviews/ and images/ directories if you want to be able to upload
+   files and screenshots via ftp.
+*) There is a side panel!
+
+
+UPDATE
+------
+You need at least version 1.4.6 to update to version 1.7.2!
+
+It is recommended to remove all PHP files (*.php) from all directories before
+uploading new files to the server. You need to do this in order to remove
+obsolete files that may disappeared or moved to other places in the new
+version.
+
+1) Upload directory reviews_panel/ into your infusions/ directory.
+2) Go to "Admin Panel" - "Infusions" - "Pro-Review System" and make sure
+   you are on reviews_panel/admin/admin.php.
+3) You should see that an update is available from a.b.c->x.y.z depending
+   on your installed version.
+4) Click on "Start Update..."
+5) If there were no errors you will have to click on "Next" to proceed.
+6) You may need to repeat steps 3 to 5 when there are more than one updates
+   available.
+7) Done!
+

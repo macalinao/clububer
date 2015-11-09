@@ -1,0 +1,119 @@
+2008-07-30 Artur Wiebe <wibix@gmx.de>
+	* Released 0.8.1.
+	* DATABASE: Added location to EVENTS. ADDED 'clist' to SETTINGS. Added
+	default_calendar_view to SETTINGS. ADDED show_week to SETTINGS.
+	DELETED all ev_id==0 in EVENTS_IN_CATS.
+	* edit_event.php: Fixed bug in categories.
+	* view_event.php: Show categories. Show only appropriate actions.
+	* day.php: Added "New Event" button.
+	* calendar.php: Now handles all calendar views (week,month,year). If
+	birthdays are not handled like events they are shown here. Added week
+	view.
+
+2008-06-02 Artur Wiebe <wibix@gmx.de>
+	* Released 0.8.0.
+	* DATABASE: Changed ev_timestamp to ctime. Added mtime as modification
+	timestamp to events. Added user_can_edit setting to allow/disallow
+	editing of existing events. Dropped ev_show_time in aw_ec_events.
+	* NEW FEATURES: Dayly repetitions. Recurring events can be terminated
+	or run for ever. Events can be saved as draft!
+	* include/core.php: Introduced awec_get_events() function that
+	retrieves events in specified date range. Improved handling of
+	recurring events.
+
+2008-05-08 Artur Wiebe <wibix@gmx.de>
+	* Released 0.7.9.
+	* DATABASE: Added birthdays_are_events setting. Added categories.
+	Added attachments.
+	* aw_ecal_panel.php: Fixed transparent tooltip error.
+
+2008-04-17 Artur Wiebe <wibix@gmx.de>
+	* include/core.php: Fixed bug in get_events() that returned invalid
+	events.
+
+2008-04-03 Artur Wiebe <wibix@gmx.de>
+	* Released 0.7.5.
+	* include/event_logins.php: Added time to emails.
+	* Others: Added default calendar view, either list or calendar.
+	Settings for custom CSS and an alternative sitepanel view.
+
+2008-03-02 Artur Wiebe <wibix@gmx.de>
+	* Released 0.7.5.
+	* include/common.php: Fixed user menu.
+	* include/core.php: Added weekend to calendar-view.
+	* Added start/end time to events.
+
+2007-05-04 Artur Wiebe <wibix@gmx.de>
+	* locale/Polish.php: Added Polish locales.
+
+2007-05-02 Artur Wiebe <wibix@gmx.de>
+	* admin.php: Added an option to format date in the side panel.
+
+2007-05-01 Artur Wiebe <wibix@gmx.de>
+	* admin.php: Added an option to start week on monday. Added an option
+	to show events of the following x days.
+	* locale/Norwegian.php: Added Norwegian locales.
+
+2007-04-01 Artur Wiebe <wibix@gmx.de>
+	* browse.php: Closed table-close bug.
+
+2007-03-14 Artur Wiebe <wibix@gmx.de>
+	* edit_event.php: Rewrote.
+	* admin.php: Added separated date format fields for birthdays and
+	other events.
+	* include/db_update.php: Fixed a bug when more than one updates were
+	available.
+	* new_events.php: Uses ec_render_cal() for events. Fixed some layout
+	bugs.
+	* view_event.php: Access to logins can now be limited to certain
+	group.
+	* browse.php, calendar.php: Rewrote list view.
+
+2007-03-08 Artur Wiebe <wibix@gmx.de>
+	* include/db_update.php: Added missing ev_login_access.
+
+2007-03-06 Artur Wiebe <wibix@gmx.de>
+	* include/common.php: Introduced new calendar render function that
+	should be faster.
+	* include/event_logins.php: Fixed a bug where others could invite
+	users.
+	* edit_event.php: Added login access group.
+	* locale/Italian.php: Added Italian locales.
+
+2007-02-28 Artur Wiebe <wibix@gmx.de>
+	* aw_ecal_panel.php: Fixed function call to get next events when
+	reaching the end of the current month.
+
+2007-02-24 Artur Wiebe <wibix@gmx.de>
+	* include/common.php: Fix weekly repetitions bug.
+
+2007-02-22 Artur Wiebe <wibix@gmx.de>
+	* locale/Dutch.php: Added Dutch locales.
+
+2007-02-21 Artur Wiebe <wibix@gmx.de>
+	* include/common.php: Added weekly repetitions to ec_get_events().
+
+2007-01-17 Artur Wiebe <wibix@gmx.de>
+	* view_event.php: Users can be invited to an event.
+	* admin/misc.php: New file to delete old events.
+	* aw_ecal_panel.php, calendar.php: Specify table style with css.
+
+2006-09-11 Artur Wiebe <wibix@gmx.de>
+	* aw_ec_panel.php: Tooltip colors depend on theme colors. Fixed a bug
+	that didn't show tomorror events if tomorrow was in the next month.
+
+2006-07-19 Artur Wiebe <wibix@gmx.de>
+	* aw_ec_panel.php: Rewrote function that rendered the calendar table.
+	* calendar.php: Added list view. Rewrote calendar render table
+	function. In calendar view weeks are now should not be drawn squeezed.
+	* include/db_update.php: New file to update from version 0.3.0
+	upwards.
+	* search.php: New file.
+	* view_event.php: Renamed show_event.php to view_event.php.
+	* include/common.php: More repetitions (yearly, monthly) added.
+
+2006-06-04 Artur Wiebe <wibix@gmx.de>
+	* aw_ec_panel.php: Fixed JS tooltip bug.
+	* show_event.php: Fixed a bug that caused the whole event be deleted
+	when trying to remove one user from the login list.
+

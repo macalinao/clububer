@@ -1,0 +1,164 @@
+RewriteEngine On
+
+ErrorDocument 401 /infusions/seofusion/error.php?error_no=401
+ErrorDocument 403 /infusions/seofusion/error.php?error_no=403
+ErrorDocument 404 /infusions/seofusion/error.php?error_no=404
+ErrorDocument 500 /infusions/seofusion/error.php?error_no=500
+
+## Games
+RewriteRule ^games/g([0-9]+)_[^/]*.html$ /infusions/varcade/arcade.php?game=$1 [L,NC]
+
+RewriteRule ^game/index.php(.*) /infusions/varcade/index.php?act=Arcade&do=newscore$1
+RewriteRule ^game/newscore.php(.*) /infusions/varcade/newscore.php$1
+RewriteRule ^game/categories.html(.*) /infusions/varcade/index.php$1
+
+RewriteRule ^game/cat([0-9]+)_[^/]*.html$ /infusions/varcade/index.php?category=$1
+RewriteRule ^game/cat([0-9]+)_[^/]*.html,rowstart=(.*) /infusions/varcade/index.php?category=$1&rowstart=$2
+
+RewriteRule ^game/tournament([0-9]+)_[^/]*.html$ /infusions/varcade/tournament_history.php?gameid=$1 [L]
+RewriteRule ^game/hiscore([0-9]+)_[^/]*.html$ /infusions/varcade/hiscore.php?gameid=$1 [L]
+
+
+##sites
+
+RewriteRule ^sites/([0-9]+)_[^/]*$ /infusions/member_pages/archive.php?site_id=$1 [L]
+
+##Seofusion
+
+RewriteRule ^write_message.html$ messages.php?msg_send=0
+
+RewriteRule ^home.html$ home.php
+
+RewriteRule ^news.html$ news.php
+
+RewriteRule ^chat.html$ chat.php
+
+RewriteRule ^privmessages.html$ privmessages.php
+
+RewriteRule ^games.html$ games.php
+
+RewriteRule ^sitemap.html$ /infusions/my_site_map/my_site_map.php
+
+RewriteRule ^article.html$ /infusions/articles/index.php
+
+RewriteRule ^downloads.html$ downloads.php
+
+RewriteRule ^links.html$ weblinks.php
+
+RewriteRule ^news_cats.html$ news_cats.php
+
+RewriteRule ^news.html$ news.php
+
+RewriteRule ^faq.html$ faq.php
+
+RewriteRule ^galerie.html$ photogallery.php
+
+RewriteRule ^users.html$ members.php
+
+RewriteRule ^messages.html$ messages.php
+
+RewriteRule ^kontakt.html$ contact.php
+
+RewriteRule ^suche.html$ search.php
+
+RewriteRule ^einsenden_foto.html$ submit.php?stype=p
+
+RewriteRule ^einsenden_artikel.html$ submit.php?stype=a
+
+RewriteRule ^einsenden_news.html$ submit.php?stype=n
+
+RewriteRule ^einsenden_link.html$ submit.php?stype=l
+
+RewriteRule ^register.html$ register.php
+
+RewriteRule ^passwort_verloren.html$ lostpassword.php
+
+RewriteRule ^edit_profile.html$ edit_profile.php [L]
+
+RewriteRule ^logout.html$ setuser.php?logout=yes [L]
+
+
+###Navigationslinks### //m�ssen selber editiert werden
+
+
+
+##articles.php
+
+RewriteRule ^a([0-9]+)_[^/]*.html$ readarticle.php?article_id=$1 [L]
+
+RewriteRule ^ac([0-9]+)_[^/]*.html$ articles.php?cat_id=$1 [L]
+
+
+##downloads.php
+
+
+RewriteRule ^dc([0-9]+)_(.*)_d([0-9]+).html$ downloads.php?cat_id=$1&download_id=$3 [L]
+
+RewriteRule ^dc([0-9]+)_[^/]*.html$ downloads.php?cat_id=$1 [L]
+
+
+##weblinks.php
+
+RewriteRule ^lc([0-9]+)_(.*)_l([0-9]+).html$ weblinks.php?cat_id=$1&weblink_id=$3 [L]
+
+RewriteRule ^lc([0-9]+)_[^/]*.html$ weblinks.php?cat_id=$1 [L]
+
+
+##news.php & news_cats.php
+
+RewriteRule ^n([0-9]+)_[^/]*.html$ home.php?readmore=$1 [L]
+
+RewriteRule ^news_([0-9]+).html$ home.php?rowstart=$1 [L]
+
+RewriteRule ^n([0-9]+)_[^/]*.html$ news.php?readmore=$1 [L]
+
+RewriteRule ^news_([0-9]+).html$ news.php?rowstart=$1 [L]
+
+RewriteRule ^nc([0-9]+)_[^/]*.html$ news_cats.php?cat_id=$1 [L]
+
+
+##faq.php
+
+RewriteRule ^qc([0-9]+)_[^/]*.html$ faq.php?cat_id=$1 [L]
+
+
+##photogallery.php
+
+RewriteRule ^photo_album_([0-9]+)_[^/]*.html$ photogallery.php?album_id=$1 [L]
+
+RewriteRule ^photo([0-9]+)_[^/]*.html$ photogallery.php?photo_id=$1 [L]
+
+
+##profile.php
+
+RewriteRule ^u([0-9]+)_[^/]*.html$ profile.php?lookup=$1 [L]
+
+RewriteRule ^g([0-9]+)_[^/]*.html$ profile.php?group_id=$1 [L]
+
+RewriteRule ^photogallery([0-9]+)_[^/]*.html$ profile.php?vpage=photogallery&lookup=$1 [L]
+
+RewriteRule ^blog([0-9]+)_[^/]*.html$ profile.php?vpage=photogallery&lookup=$1 [L]
+
+
+##viewpage.php
+
+RewriteRule ^cp([0-9]+)_[^/]*.html$ viewpage.php?page_id=$1 [L]
+
+
+
+##POUND##
+RewriteRule ^uberpets/pound/(.*)/([0-9]+)/(.*) /infusions/uberpets/pound.php?page=$1&step=$2&species=$3
+RewriteRule ^uberpets/pound/(.*)/([0-9]+) /infusions/uberpets/pound.php?page=$1&step=$2
+RewriteRule ^uberpets/pound/(.*) /infusions/uberpets/pound.php?page=$1
+
+##CREATE PET##
+RewriteRule ^uberpets/create-pet-step-2-species-(.*) /infusions/uberpets/create_pet.php?step=2&species=$1
+RewriteRule ^uberpets/create-pet-step-([0-9]+) /infusions/uberpets/create_pet.php?step=$1
+RewriteRule ^uberpets/create-pet$ /infusions/uberpets/create_pet.php
+
+##UBERPETS##
+RewriteRule ^uberpets /infusions/uberpets/index.php
+RewriteRule ^uberpets/(.*) /infusions/uberpets/$1.php
+RewriteRule ^uberpets/(.*)(.*) /infusions/uberpets/$1.php$2
+
+

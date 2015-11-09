@@ -1,0 +1,12 @@
+SOME LOCALES ARE NOT UPTODATE!!
+
+
+THE OTHER LOCALES ARE MISSING SOME PARTS
+
+
+Up to date:
+German (slaughter)
+English (slaughter, MrSimple)
+Danish (helmuth)
+Turkish (SoulSmasher)
+Dutch (MrSimple)

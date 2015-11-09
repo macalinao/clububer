@@ -1,0 +1,56 @@
+TD,UL,LI,P,BODY {
+  font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+  font-size: 10pt;
+  color: #000000;
+  text-decoration: none;
+  background-color: #FCFCFC;
+  text-align: left;
+}
+
+A {
+  color: #000000;
+  text-decoration: underline;
+}
+
+A:VISITED {
+  color: #000000;
+  text-decoration: underline;
+}
+
+A:HOVER {
+  color: #E8B600;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Arial,Helvetica,Geneva,Sans-serif,sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Arial,Helvetica,Geneva,Sans-serif,sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-family : Arial,Helvetica,Geneva,Sans-serif,sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.handbuch_version {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.quelltext {
+  font-family: Courier New,Lucida Console,Courier,Monaco,Monospace,monospace;
+  font-size: 10pt;
+}
+
+.text_copyright {
+  font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+  font-size: 8pt;
+}

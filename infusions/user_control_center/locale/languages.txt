@@ -1,0 +1,16 @@
+
++----------------------------------------------------+
+| User Control Center made by:
+| Sebastian "slaughter" Schüssler
+| Download:
+| http://basti2web.de
++----------------------------------------------------+
+
+
+If you want to translate the language-files into other languages or parts of the language-files, which are not translated yet, please write them down on the board of http://basti2web.de
+
+Or if you find some mistakes, please report them ;)
+
+So I can put them in the next version into the infusion-packet, and everybody is happy :-)
+
+Thanks you to all the translators!!!

@@ -1,0 +1,69 @@
++ check if downloads work okay??? (file.php)
++ check if v7-import works!!! (admin/import.php)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bei mir war das Problem ebenfalls. Durch ein Seitenpanel verursacht, den Gr Streamstatus. Nach Abschaltung des Panels alles einwandfrei....danke für den wertvollen Tipp. War schon am verzweifeln *g
+
+
+ftp-select-box: show files that are not in the db only.
+
++ themes/ and download_restricted anpassen
+
++
+Extboard, da geht der screenshot (mit pic_id):
+http://www.wuschelkiste.de/fusion/infusions/pro_download_panel/download.php?did=316
+hier nicht:
+http://www.wuschelkiste.de/fusion/infusions/pro_download_panel/download.php?did=155
+
+#############################################################################
++ remove include/getvcode.php
+
+- download counter with non-accessible but not hidden sub-cats is missleading!
+
+- add extended-center-panel
+
++ some setting-options no longer required.
+  --? downbereich
+  --? uploadbereich
++ download column
+  --? down
+  --? dl_size
+  --? version
+
+? file_size als bytes eintragen und nicht als formatierter text?
+? ADD username to mails. like: user xyz created a new download etc.
+
++ file_status obsolete?
+
+Think about
+-----------
+- USER_IP: Feld nur 20 chars. Zu wenig für IPv6?! Aber Fusion will es so.
+
+- traffic begrenzung?
+
+- allow html in DESC

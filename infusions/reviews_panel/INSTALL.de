@@ -1,0 +1,39 @@
+WARNUNG
+-------
+Legen Sie ein Backup ihrer Datenbank an und lesen Sie gpl.txt!
+
+
+NEU-INSTALLATION
+----------------
+Es handelt sich um eine Standard-Installation einer Infusion.
+
+1) Lade Sie das Verzeichnis reviews_panel/ ins infusions/ Verzeichnis
+   hoch.
+2) Im Admin-Bereich unter "System Admin" - "Infusionen " die Infusion
+   aus der Liste ausw�hlen ("Por Review Panel") und auf "Installieren"
+   klicken.
+3) Falls Sie beabsichtigen Dateien und Screenshots via FTP hochzuladen,
+   setzte Sie images/ und reviews/ mit chmod auf 777.
+*) Es gibt ein Seiten-Panel!
+
+
+UPDATE
+------
+Sie brauchen mindestens Version 1.4.6 um auf die Version 1.7.2 aktualisieren
+zu k�nnen.
+
+Ich empfehle vor dem Upload alle PHP-Dateien (*.php) aus allen Verzeichnissen
+zu l�schen. Auf diese Weise gehen Sie sicher, dass keine unn�tigen Dateien, die
+es nicht mehr gibt oder die an andere Orte verschoben wurden, "herumliegen".
+
+1) Laden Sie wie gewohnt alle Dateien hoch.
+2) Gehen Sie in den Admin-Bereich: "Infusions" - "Pro-Review System". (Sie
+   sollten auf reviews_panel/admin/admin.php landen.)
+3) Es sollte Ihnen angezeigt werden, dass ein Update m�glich ist: a.b.c->x.y.z,
+   je nachdem welche Version installiert ist.
+4) Klicken Sie auf "Update starten..."
+5) Sofern keine Fehler auftauchen, m�ssen Sie noch auf "Weiter" klicken.
+6) M�glicherweise m�ssen Sie die Schritte 3 bis 5 mehrere Male ausf�hlen, falls
+   mehr als ein Update m�glich ist.
+7) Fertig!
+

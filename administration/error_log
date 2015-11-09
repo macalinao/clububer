@@ -1,0 +1,2 @@
+[12-Aug-2010 13:56:29] PHP Fatal error:  Call to undefined function  url() in /home6/dcriticc/public_html/clububer/infusions/user_info_panel/user_info_panel.php on line 37
+[12-Aug-2010 13:57:59] PHP Fatal error:  Call to undefined function  hide_email() in /home6/dcriticc/public_html/clububer/locale/English/global.php on line 160

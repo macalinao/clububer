@@ -1,0 +1,184 @@
+2008-06-04 Artur Wiebe <wibix@gmx.de>
+	* New Features: A distinct sub-directory can be set per review.
+	* image.php: Fixed a redirection bug.
+
+2008-01-13 Artur Wiebe <wibix@gmx.de>
+	* did.php: Error message on wrong captcha.
+	* edit_files.php: FTP supports sub-directories.
+	* search.php: Added an option to search for users.
+	* edit_misc.php, admin/misc.php: Visitors counter can be reseted.
+	* admin/cats.php: Added Review-Group to categories.
+	* review.php: Categories can be sorted by creation time.
+	* review.php: Fixed bug in function prp_count_dl (reported by
+	dream-universe.net.
+	* include/class.review.php: Fixed bug when review owner receives
+	two emails when a comment is posted.
+
+2007-07-25 Artur Wiebe <wibix@gmx.de>
+	* reviews.php: Fixed a bug when specifying an invalid category.
+	* admin/import.php: Categories review counters are updated
+	correctly.
+
+2007-07-01 Artur Wiebe <wibix@gmx.de>
+	* Added moderator group.
+	* Screenshots can be scaled while uploading.
+	* Members can subscribe to reviews to be notified when something
+	changes.
+	* Admin can limit number of screenshots for each review.
+	* include/theme_funcs.php, themes/wibix/theme.php: URLs are truncated
+	to 40 chars.
+	* admin/reviews.php: Shows review status.
+	* admin/settings: Rewrote to be more descriptive.
+	* admin/import.php: Rewrote
+
+2007-04-05 Artur Wiebe <wibix@gmx.de>
+	* Version 1.7.3 Released
+	* Removed JavaScript where possible.
+	* Added theme support.
+	* After a user finished editing a review he informs an admin about
+	this.
+	* Splitted description into an abstract and details.
+	* file.php: Using PHP-Fusion's review class.
+	* edit_*.php: Fixed bug that made is impossible to submit a new
+	review when option "users can edit their reviews" was off.
+	* review.php: Rewrote to be more customizable. When no category is
+	specified all reviews are displayed. Review description can be
+	splitted into two parts only the first be shown in the category
+	overview.
+	* admin/import.php: Fixed to use prp_files table instead of old fields
+	in the prp_reviews table.
+	* admin/settings.php: Added two new settings: Mark reviews for x
+	days as NEW and define who can report broken reviews.
+	* search.php: Using render funktion to display search results.
+	* admin/cats.php: Added cat_upload_access field to interface. Fixed
+	bug displaying cats in wrong order. Added cat_order to be able to sort
+	cats.
+	* broken.php: Added captcha.
+	* edit_files.php: Do not show upload field when no extentions
+	specified.
+	* edit_pics.php: Do not show upload field when no extentions
+	specified. Show a warning message. Multiple screenshots per review.
+	* admin/db_update.php: Moved to include/db_update.php.
+	* edit_del.php: Removed.
+
+2006-08-08 Artur Wiebe <wibix@gmx.de>
+	* include/edit.php: Fixed wrong return errno of prp_upload_file.
+
+2006-08-03 Artur Wiebe <wibix@gmx.de>
+	* Version 1.6.3 Released
+	* did.php: Users can delete their vote.
+	* edit_pics.php: New file. Admin for screenshots.
+	* admin/import.php: New file. Imports standard PHP-Fusion reviews
+	into professional review system.
+	* admin/settings.php: New option: do now report broken reviews after
+	this has happened some times. Moved broken-review-text into
+	settings.
+	* profile.php: New file that lists user's reviews.
+	* search.php: New file. Moved search stuff from reviews.php to this
+	file.
+	* edit_files.php: Rewrote.
+	* admin/del_review.php: New file.
+	* edit_admin.php: New file. Show all changes made to review and
+	more.
+
+2006-05-15 Artur Wiebe <wibix@gmx.de>
+	* Version 1.4.7 Released
+	* edit_desc.php: Show only cats that can be accessed.
+	* admin/settings.php: Added paths for reviews and images to common
+	settings. Modified GUI.
+	* file.php: Some optimazations. Added check for group access. Added a
+	function to be able to review big files.
+	* reviews_panel.php: Do not show reviews that are restricted
+	or inactive.
+	* admin/cats.php: Removed obsolete code. Added "access" column to
+	table.
+	* edit_files.php: [file_id] is stripped from filename. Filesize is
+	added it not specified by the user. Fixed a bug with wrong max file
+	size of uploads. One file can be selected the be the primary review.
+	New file becomes primary review.
+	* common.php: upload_file() removes problematic chars from filename.
+
+2006-05-01 Artur Wiebe <wibix@gmx.de>
+	* Version 1.4.6 Released
+	* New Features: User that creates a review can be autorized to edit
+	this review. Several files per review are now possible. Added
+	access control to categories.
+	* review.php, admin/cats.php: Added access stuff to cats.
+	* defekt.php: Broken Review submission have to be asserted by the
+	user. IP is logged.
+	* edit_desc.php: User can edit review description.
+	* edit_files.php: Extensions like .tar.gz are possible.
+	* did.php: Modified JavaScript to better support outdated IE. Admin
+	can view inactive reviews. pollbar.gif is not used anylonger. css
+	class poll is used instead. Fixed a bug that resulted in wrong
+	percentage numbers.
+	* review.php: Added an option to show only reviews that one
+	uploaded.
+	* admin/settings.php: Little GUI modifications. Only users that can
+	edit reviews are shown in settings for PMs.
+
+2006-02-20 Artur Wiebe <wibix@gmx.de>
+	* upload2.php, admin/reviews.php: $link_extern Bug Fix.
+	* *.php: Neu-Organisation der Dateien. Felder "Homepage" und "Version"
+	hinzugefügt. Option zum Abschalten der Reviewbeschreibung in der
+	Kategorienübersicht.
+	* did.php: Review-Bearbeiten und Kommentare-Managen Links in der
+	Review-Ansicht.
+	* admin/*.php: Einheitliche Ansicht der Verwaltung. Seitenpanel zur
+	Navigation.
+
+2006-01-30 Artur Wiebe <wibix@gmx.de>
+	* *.php: BB-Code und Smileys können benutzt werden.
+	* did.php: IP Adresse wird mit Kommentaren gespeichert.
+	* admin/review.php: Reviews können nun aktualisiert werden.
+	Reviewzähler bleibt erhalten. Das Datum kann aktualisiert werden.
+	* admin/kategorien.php, kategorien.php: Kategoriensortierung
+	hinzugefügt. Es werden jetzt pro Seite nur eine bestimmte Anzahl an
+	Datensätzen angezeigt. Die Anzahl lässt sich natürlich einstellen.
+	* admin/*.php: Löschen muss bestätigt werden. Kann verweigert werden,
+	wenn Abhängigkeiten bestehen. Beim Löschen eines Reviews werden die
+	Kommentare und Votes gelöscht.
+
+2006-01-26 Artur Wiebe <wibix@gmx.de>
+	* upload.php: JavaScript Bug, der den Upload verweigert, beseitigt.
+	* review.php: Suchen-Maske hinzugefügt.
+
+2006-01-25 Artur Wiebe <wibix@gmx.de>
+	* Release: Version 1.2a.
+	* upload.php: JavaScript überprüft die Eingabe vor dem Senden.
+	* did.php: Voten: Die Kategorie mit den meisten Votes ist 100%. Die
+	anderen entsprechend. Man sieht nun auch das Ergebnis, selbst wenn man
+	noch nicht gewählt hat.
+	* file.php: Falls die Lizenz nicht akzeptiert werden muss, wird gleich
+	der Review gestartet.
+	* admin/adminpage.php: FTP: Dateiname und Bilder können beim
+	Bearbeiten verändert werden. Es brauchen keine Bilder gewählt zu
+	werden.
+	* index.php, admin/index.php: Weiterleitung zu review.php,
+	reviews.php.
+	* did.php: Zeigt den Review mit Bewertungen und Kommentaren an.
+	Angemeldete Benutzer können ihren Namen nicht ändern, wird automatisch
+	eingefügt und die user_id gespeichert.
+	* infusions.php: Link ins Navigationsmenü. Anpassung der Feldtypen:
+		proreviews:
+		proreviews_bewertungen:
+		proreviews_kommentare: (NEUES FELD)
+			user_id:		smallint(5) unsigned;
+		proreviews_settings:
+			neupm:			smallint(5) unsigned
+			defektpm:		smallint(5) unsigned
+			downbereich:		tinyint(3) unsigned
+			uploadbereich:		tinyint(3) unsigned
+			uploadsaktivieren:	tinyint(3) unsigned
+			kommentare:		tinyint(3) unsigned
+			bewertungen:		tinyint(3) unsigned
+	* locale/: Ersetzt defines durch $locale[]. Ergänzende Übersetzungen
+	fehlenden Textes ins Englische.
+	* *.php: Benutze zur Datumsausgabe Fusions showdate().
+	* admin/donwloads.php: Ich habe das Löschen von Dateien (Uploads und
+	Bilder) zur Zeit deaktiviert. Man müsste dort noch ein paar Abfragen
+	und Fehlermeldungen einbauen.
+	* admin/*.php: Geändert checkRights("S") zu checkRights("IP").
+	* admin/kategorien.php: Nur Kategorien ohne Reviews und ohne
+	Unterkategorien können gelöscht werden.
+

@@ -1,0 +1,69 @@
+NOW
+===
++ integrate day.php into calendar.php
+
+X ADDED some js to edit_event.php:repeat
+
+
+
+LATER
+=====
+
+? add timezone to events
+
+http://support.phpfusion-de.com/forum/viewthread.php?forum_id=55&thread_id=8765
++ attachments
+
++ let users mark events as to be deleted.
+
+BIG STUFF:
+	+ logins for recurring events possible????
+	+ add upload to events.
+	+ use js-datepicker
+		- jquery datepicker
+		- http://code.google.com/p/calendardateselect/
+	+ general repeatitions
+		- 14days-repeatitions
+		- could be useless if rep_interval and rep_type are introduced.
+	+ add login-deadline!
+	+ export of days (day.php)!!!
+
+
+
+? ADD COLUMN login_options to events
+
+? check for events below 1970
+
+? EVENT LOGINS: view-access
+
+? allow invitation of user groups.
+
+? eine liste der vergangenen events anzeigen.
+
+? inform event owner when someone signs to his event.
+
+? add: PM to greet birthdays
+
+? need admin_user_id / wer hats freigegeben?
+
+? iCalendar
+	- @wibix: Mit Abofunktion meine ich, dass ich beliebige
+	  Internetkalender die im .ics Format vorliegen abonnieren kann. Ich
+	  füge die Adresse hinzu (http://domain.de/calendar.ics) und dann wird
+	  der Kalender immer aktuell gehalten indem er z.B. jeden Tag neu
+	  eingelesen wird und Änderungen übernommen werden. So kann man z.B.
+	  Kalender von hier einfügen: http://www.icals.de/feiertage. Eigentlich
+	  so wie im Google Kalender, ich kann alle möglichen Kalender
+	  hinzufügen! Denn oft liegen Kalender schon in diesem Format vor. Man
+	  könnte sich auch noch überlegen, ob dein Event Kalender auch .ics
+	  Dateien erstellt. Diese kann man dann wie ein RSS-Feed auf der Seite
+	  anbieten. Oder sie benutzen um den Kalender zu Syncen mit anderen
+	  Anwendungen.
+	- import cvs files
+
+
+
+NEVER
+=====
+
+* IE7 side column problems (DONT CARE)

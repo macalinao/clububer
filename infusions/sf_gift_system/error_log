@@ -1,0 +1,3 @@
+[09-Mar-2013 05:34:36] PHP Warning:  mysql_num_fields(): supplied argument is not a valid MySQL result resource in /home6/dcriticc/public_html/clububer/themes/templates/panels.php on line 117
+[09-Mar-2013 05:34:36] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home6/dcriticc/public_html/clububer/themes/templates/panels.php on line 121
+[09-Mar-2013 05:34:36] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home6/dcriticc/public_html/clububer/infusions/sf_gift_system/includes/functions.php on line 42

@@ -1,0 +1,2 @@
+[13-Apr-2010 08:01:23] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home6/dcriticc/public_html/clububer/includes/captcha_include.php on line 19
+[13-Apr-2010 09:14:46] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home6/dcriticc/public_html/clububer/includes/captcha_include.php on line 19

@@ -1,0 +1,69 @@
+[06-Sep-2009 20:31:23] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[06-Sep-2009 20:31:23] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[06-Sep-2009 20:31:23] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[18-Oct-2009 16:14:12] PHP Warning:  opendir(PETSregular/rabbit/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[18-Oct-2009 16:14:12] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[18-Oct-2009 16:14:12] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[18-Oct-2009 16:15:06] PHP Warning:  opendir(PETSregular/rabbit/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[18-Oct-2009 16:15:06] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[18-Oct-2009 16:15:06] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 03:03:32] PHP Warning:  opendir(PETSregular/rabbit/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 03:03:32] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 03:03:32] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:44:43] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:44:43] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:44:43] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:49:36] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:49:36] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:49:36] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:50:49] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:50:49] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:50:49] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:51:00] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:51:00] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:51:00] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:51:07] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:51:07] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:51:07] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:51:14] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:51:14] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:51:14] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:51:25] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:51:25] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:51:25] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:51:35] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:51:35] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:51:35] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:51:50] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:51:50] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:51:50] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:51:55] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:51:55] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:51:55] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:52:07] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:52:07] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:52:07] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:52:13] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:52:13] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:52:13] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:52:25] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:52:25] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:52:25] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[05-Mar-2010 21:52:43] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[05-Mar-2010 21:52:43] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[05-Mar-2010 21:52:43] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[14-Jun-2010 17:49:56] PHP Warning:  opendir(PETSregular/walrus/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[14-Jun-2010 17:49:56] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[14-Jun-2010 17:49:56] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[12-Aug-2010 12:53:05] PHP Warning:  opendir(PETSregular/rabbit/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[12-Aug-2010 12:53:05] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[12-Aug-2010 12:53:05] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[12-Aug-2010 14:58:22] PHP Warning:  opendir(PETSregular/rabbit/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[12-Aug-2010 14:58:22] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[12-Aug-2010 14:58:22] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[29-Sep-2010 18:08:33] PHP Warning:  opendir(PETSregular/rabbit/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[29-Sep-2010 18:08:33] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[29-Sep-2010 18:08:33] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753
+[27-Jun-2012 20:43:15] PHP Warning:  opendir(PETSregular/rabbit/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home6/dcriticc/public_html/clububer/maincore.php on line 745
+[27-Jun-2012 20:43:15] PHP Warning:  readdir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 746
+[27-Jun-2012 20:43:15] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home6/dcriticc/public_html/clububer/maincore.php on line 753

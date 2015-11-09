@@ -1,0 +1,4 @@
+[07-Sep-2009 15:55:46] PHP Warning:  getimagesize(../../images/avatars/189.png) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home6/dcriticc/public_html/clububer/infusions/fusionboard4/usercp.php on line 521
+[07-Sep-2009 15:55:46] PHP Warning:  Division by zero in /home6/dcriticc/public_html/clububer/infusions/fusionboard4/usercp.php on line 523
+[07-Sep-2009 15:55:46] PHP Warning:  getimagesize(../../images/avatars/27.png) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home6/dcriticc/public_html/clububer/infusions/fusionboard4/usercp.php on line 521
+[07-Sep-2009 15:55:46] PHP Warning:  Division by zero in /home6/dcriticc/public_html/clububer/infusions/fusionboard4/usercp.php on line 523

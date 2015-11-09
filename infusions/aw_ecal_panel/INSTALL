@@ -1,0 +1,21 @@
+1) INSTALLATION
+2) UPDATE
+3) NOTE - pirdani's evente calendar
+
+
+I N S T A L L A T I O N
+-----------------------
+Standard PHP-Fusion Installation.
+
+
+U P D A T E
+-----------
+Open up your Calendar Settings Page. You should see a message that an update is
+available. Click on "Start update..." to start the update process.
+
+
+N O T E
+-------
+If you are using my version of pirdani's calendar 2.1.4, execute
+infusions/aw_ecal_panel/misc/import.php to import you existing events.
+
